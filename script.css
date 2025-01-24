@@ -1,0 +1,297 @@
+body{
+  background-color: #89CFF0;
+}
+.img-1{
+  background: #ff
+    height: 50rem;
+    position: relative;
+    margin-bottom: 0;
+    margin-top: 0;
+    overflow: hidden;
+    padding-top: 20px;
+    align-items: center;
+
+    
+}
+.nav-1 {
+  width: 100%;
+  height: 10vh;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  background-color: 
+}
+.Zetox-up{
+  color: black;
+  font-size: 62px;
+  font-family:sans-serif;
+  left:534px;
+position:relative;
+margin-left:20px ;
+
+}
+
+.sign-in-button {
+  width: 100px;
+  height: 18px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: #fff;
+  cursor: pointer;
+  margin-left: 20px;
+  position: absolute;
+  right: 56px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.sign-in-button:hover {
+  background-color: #3e8e41;
+}
+
+.return-button-oder-button {
+
+  height: 40px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f0c14b;
+  color: #333;
+  cursor: pointer;
+  position: absolute;
+  left: 1152px;
+
+}
+
+
+
+.nav-2 {
+  width: 100%;
+  height: 10vh;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: grey;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.dropdown {
+  position:relative;
+  display:inline-block;
+}
+
+
+.dropdown-button {
+  position: relative;
+  right: 350px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0;  
+  background-color: #4CAF50;
+  height: 41px;
+  width:70px;
+}
+
+.dropdown-button:hover {
+  background-color: #3e8e41;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  top: 100%;
+  right:200px;
+  transform: translateX(-50%);
+}
+
+.dropdown-content a {
+  color: #333;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropdown-button {
+  background-color: #3e8e41;
+}
+.nav-3{
+  width: 100%;
+  height: 5vh;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color:#232F3E;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 20px;
+  
+}
+.republic-logo {
+  width: 400px; 
+  height: 5vh; 
+  margin-right: 14px;
+
+}
+.zetox-pay-button {
+  background-color: #232F3E; 
+  color: #fff; 
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer; 
+  display:inherit;
+ margin-right:26px ;
+}
+
+.zetox-pay-button:hover {
+  background-color:grey; /* darker green background color on hover */
+}
+.home-kitchen-button {
+  background-color: #232F3E; 
+  color: #fff; 
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer; 
+  display:inherit;
+ margin-right:26px ;
+}
+.home-kitchen-button:hover {
+  background-color:grey; /* darker green background color on hover */
+}
+
+* {
+  margin: 0;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  margin: 0;
+  position: absolute;
+  
+  transform: translatex(-65%);
+  
+
+
+}
+
+.search-container input[type="search"] {
+  width: 500px;
+  height: 40px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+}
+
+
+
+.search-button {
+  width: 100px;
+  height: 40px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 0 5px 5px 0;
+  background-color: #f0c14b;
+  color: #333;
+  cursor: pointer;
+  
+}
+
+.search-container .search-button:hover {
+  background-color: #ffd700;
+}
+
+.search-logo {
+  width: 26px;
+  height: 30px;
+  font-family: arial;
+  left: -24px;
+
+}
+
+.header {
+  position: absolute;
+  top: 60px;
+  left: -28px;
+  padding: 47px;
+  font-size: 24px;
+  font-weight: bold;
+
+}
+
+.zetox-text {
+  margin: 0;
+  font: bolder;
+  font-size: 29px;
+}
+}
+
+.search-zetox {
+  margin-left: -10px;
+
+}
+
+.cart-logo {
+  position: absolute;
+  top: 30px;
+  right: 10px;
+  font-size: 24px;
+  color: #333;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.cart-logo svg {
+  width: 40px;
+  height: 32px;
+  
+}
+
+.cart-count {
+  font-size: 12px;
+  color: #fff;
+  background-color: #f00;
+  padding: 2px 5px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+
+}
+.img-div{
+  max-width: 1480px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 20px 0;
+}

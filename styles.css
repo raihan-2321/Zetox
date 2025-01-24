@@ -1,0 +1,168 @@
+.email {
+  font-family: sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.4;
+  letter-spacing: normal;
+  margin-bottom: 8px;
+  color: white;
+ text-align: center;
+ padding:20px;
+ border: 1px solid #dae2ea;;
+ border-radius: 5px;
+ box-shadow: 0 0 18px rgba(0, 0, 0.1);
+ width: 87vh;
+ 
+}
+
+
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:100vh;
+  
+    background-image: url('uchiha.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+.email input {
+  width: 60vmin;
+  height: 40px;
+  place
+  font-size: 18px;
+  border:solid 1px;
+  border-radius: 5px;
+  margin-bottom:8px;
+
+}
+.continue-btn {
+  background-color: #007bff; /* Blue color */
+  color: #ffffff; /* White text color */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+  margin:auto;
+  width: 200px;
+  margin-top:2rem;
+  
+}
+
+.continue-btn:hover {
+  background-color: #0056b3; /* Darker blue color on hover */
+}
+.button-or{
+  font-size: 14px;
+  color:white;
+  flex-shrink: 0;
+margin:0 16px ;
+line-height: 1.5;
+
+}
+.horizontal-line{
+  background-color: grey;
+  height: 2px;
+  width:100%;
+
+
+  
+  
+  
+}
+
+.divider{
+  margin:10px 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.logo-svg{
+  display:flex;
+  justify-content: space-around;
+  align-items:center;
+  padding:20px;
+
+  
+}
+.google-btn {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  border: solid 1px grey;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #fff;
+  color: #000;
+  height: 60px;
+  margin-right:20px;
+  width:20vmin;
+
+
+}
+.google-btn:hover{
+    border:solid black 1.5px;
+  
+}
+
+.google-btn img {
+  margin-right: 10px;
+}
+
+
+.apple-btn {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #fff;
+  color: #000;
+  margin-right: 10px;
+}
+
+
+.apple-btn img, .google-btn img {
+  margin-right: 10px;
+}
+
+input::-webkit-input-placeholder {
+  color: black;
+  opacity: 0.7;
+  
+}
+/* Add the following styles to your existing CSS file */
+
+.tick-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  color: #2ecc71; /* Green color for the tick icon */
+  opacity: 0;
+  transition: opacity 10.3s;
+}
+
+.tick-icon.show {
+  opacity: 1;
+}
+
+@keyframes tick-animation {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+
+.tick-icon.show {
+  animation: tick-animation 0.5s ease-in-out;
+}
